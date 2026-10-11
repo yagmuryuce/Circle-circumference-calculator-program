@@ -1,8 +1,8 @@
 # Circle-circumference-calculator-program
-#include <stdio.h>
-#include <stdlib.h>
-
-int main() {
+	
+	#include <stdio.h>
+    #include <stdlib.h>
+	int main() {
 	const double PI=3.14159;
 	double radius;
 	double circumference;
@@ -15,4 +15,4 @@ int main() {
 	printf("\n circumference of the circle: %lf",circumference);
 	printf(" \n area of ​​the circle:%lf",area);
 	return 0;
-}
+	}
